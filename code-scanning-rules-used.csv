@@ -1,0 +1,18 @@
+Configuration,Rule Source,Sarif Identifier,Alerts
+/language:actions,codeql/actions-queries (0.5.3+626c752a0b8cfd98bcf1f4b622d73bbe6f078a4c),actions/artifact-poisoning/critical,0
+/language:actions,codeql/actions-queries (0.5.3+626c752a0b8cfd98bcf1f4b622d73bbe6f078a4c),actions/cache-poisoning/code-injection,0
+/language:actions,codeql/actions-queries (0.5.3+626c752a0b8cfd98bcf1f4b622d73bbe6f078a4c),actions/cache-poisoning/direct-cache,0
+/language:actions,codeql/actions-queries (0.5.3+626c752a0b8cfd98bcf1f4b622d73bbe6f078a4c),actions/cache-poisoning/poisonable-step,0
+/language:actions,codeql/actions-queries (0.5.3+626c752a0b8cfd98bcf1f4b622d73bbe6f078a4c),actions/code-injection/critical,0
+/language:actions,codeql/actions-queries (0.5.3+626c752a0b8cfd98bcf1f4b622d73bbe6f078a4c),actions/envpath-injection/critical,0
+/language:actions,codeql/actions-queries (0.5.3+626c752a0b8cfd98bcf1f4b622d73bbe6f078a4c),actions/envvar-injection/critical,0
+/language:actions,codeql/actions-queries (0.5.3+626c752a0b8cfd98bcf1f4b622d73bbe6f078a4c),actions/excessive-secrets-exposure,0
+/language:actions,codeql/actions-queries (0.5.3+626c752a0b8cfd98bcf1f4b622d73bbe6f078a4c),actions/improper-access-control,0
+/language:actions,codeql/actions-queries (0.5.3+626c752a0b8cfd98bcf1f4b622d73bbe6f078a4c),actions/missing-workflow-permissions,0
+/language:actions,codeql/actions-queries (0.5.3+626c752a0b8cfd98bcf1f4b622d73bbe6f078a4c),actions/secrets-in-artifacts,0
+/language:actions,codeql/actions-queries (0.5.3+626c752a0b8cfd98bcf1f4b622d73bbe6f078a4c),actions/unmasked-secret-exposure,0
+/language:actions,codeql/actions-queries (0.5.3+626c752a0b8cfd98bcf1f4b622d73bbe6f078a4c),actions/untrusted-checkout-toctou/critical,0
+/language:actions,codeql/actions-queries (0.5.3+626c752a0b8cfd98bcf1f4b622d73bbe6f078a4c),actions/untrusted-checkout-toctou/high,0
+/language:actions,codeql/actions-queries (0.5.3+626c752a0b8cfd98bcf1f4b622d73bbe6f078a4c),actions/untrusted-checkout/critical,0
+/language:actions,codeql/actions-queries (0.5.3+626c752a0b8cfd98bcf1f4b622d73bbe6f078a4c),actions/untrusted-checkout/high,0
+/language:actions,codeql/actions-queries (0.5.3+626c752a0b8cfd98bcf1f4b622d73bbe6f078a4c),actions/vulnerable-action,0
